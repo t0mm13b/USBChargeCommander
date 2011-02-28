@@ -104,6 +104,7 @@ public class UsbChargeCommander extends Activity {
     }
     class rootAsync extends AsyncTask<Integer, Void, Integer>{
         @Override
+        // http://www.stealthcopter.com/blog/2010/01/android-requesting-root-access-in-your-app/
         protected Integer doInBackground(Integer... unused){
             int nVal = unused[0];
             int nRv = 0;
@@ -172,6 +173,7 @@ public class UsbChargeCommander extends Activity {
             Toast
                 .makeText(UsbChargeCommander.this, sMsg, Toast.LENGTH_SHORT)
                 .show();
+            // Need to add a notification to inform the status of USB charging... :)
            	Message m = new Message();
 			m.what = UsbChargeCommander.QUITMSG;
 			_adHandler.sendMessage(m);
