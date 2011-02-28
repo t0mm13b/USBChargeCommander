@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USB Charge Commander</string>
+    <string name="adChargeUSB_Title">USB Charge Commander</string>
+    <string name="adChargeUSB_Close">Close</string>
+    <string name="prefsUSBChargePropertyKey">usbChargeDisabled</string>
+    <string name="prefsUSBChargePropertyValueOn">1</string>
+    <string name="prefsUSBChargePropertyValueOff">0</string>
+    <string name="cmdSU">su</string>
+    <string name="cmdSU_setprop">/system/bin/setprop persist.sys.charging.disable</string>
+    <string name="cmdSU_exit">exit</string>
+    <string name="toastUSBChargingDisabled">USB Charging is disabled</string>
+    <string name="toastUSBChargingEnabled">USB Charging is enabled</string>
+    <string name="toastPrefSavingError">Error in saving preferences</string>
+    <string name="asyncTaskZeroMsg">Updated OK</string>
+    <string name="asyncTaskMinusOneMsg">Failed to run as could not find root binary</string>
+    <string name="asyncTaskMinusOthersMsg">This handset is not likely rooted. Failed</string>
+    <string name="asyncTaskUnknownMsg">Unknown error. Failed</string>
+    <array name="array_adChargeUSB">
+		<item>Enable USB Charging</item>
+		<item>Disable USB Charging</item>
+	</array>
+</resources>

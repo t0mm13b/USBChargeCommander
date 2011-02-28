@@ -1,0 +1,50 @@
+***** README *****
+
+WHAT THE HECK IS THIS?
+USB Charge Commander is an application designed for the ZTE Blade/Orange's San Francisco handset.
+
+WHAT DOES IT DO?
+It takes care of disabling the charging of the battery, and re-enabling it.
+
+WHY?
+Handy if you just want to plug in the handset and copy a file instead of messing up the battery by plugging it in and to unplug it a minute later.
+
+HOW?
+There's a simple property set up in the init.rc, that watches for the boolean flag and sets it according.
+
+>>> FAQ <<<
+(1) Pre-Requisities:
+You need to have a rooted handset. 
+
+(2) Does it work?
+Yup, it sure does work.
+
+(3) Is it safe?
+I say it is safe.
+Disclaimer: If your handset blows up/starts smoking/screen goes funny - don't blame me! Use it at your own risk. It works on mine!
+
+(4) The thing does not work?
+Uhhh.... you MUST have a rooted handset.
+
+(5) Is this free?
+Yup, tis open source and the source can be found on github.
+
+(6) Does it do anything malicious?
+Malicious? Define Malicious? 
+The code is there for everyone to see and it does not send a message to China or the moon and then make you through the nose for
+ premium calls. Nor does it hose your contacts and forward it to some spybot out there in Russia. :P
+
+(7) The darn thing is broken?
+Like I said, look at #3 above.
+
+(8) What License?
+I hereby place this under the DWTFYL License, (Do Whatever The Fuck You Like). But please place credit where's due. That's all... 
+
+(9) There must be a catch?
+NAHHH... Just read the code and learn... I put that out there purely as an educational thingy for newbies to understand and learn.
+
+(10) How do I build it?
+You need the Android SDK, Java Developers Kit, and use ANT to build the code.
+
+ANY OTHER QUESTIONS?
+Email me.
